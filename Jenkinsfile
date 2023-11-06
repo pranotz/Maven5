@@ -18,6 +18,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/pipeline1.war /home/pranotz/Documents/Devops_software/apache-tomcat-9.0.82/webapps'
+		sh 'cp target/Maven5.war /home/pranotz/Documents/Devops_software/apache-tomcat-9.0.82/webapps'
 			}}	
 }}
